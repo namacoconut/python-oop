@@ -22,4 +22,11 @@ class Course:
   def get_average(self):
     pass
 
+s1 = Student("tim", 23, 99)
+s2 = Student("noor", 33, 0)
 
+course = Course("math",2)
+course.add_students(s1)
+course.add_students(s2)
+
+print(course.students[0].name)
