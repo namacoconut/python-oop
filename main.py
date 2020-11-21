@@ -1,3 +1,5 @@
+
+# creating a class means creating reusable object
 class Student:
   def __init__(self, name , age, grade):
     self.name = name
@@ -13,9 +15,10 @@ class Course:
     self.max_students = max_students
     self.students = []
 
-  def add_students(self, student):
+# store whatever value in max_students Attribute to students array
+  def add_students(self, student_in_class):
     if len(self.students) < self.max_students:
-      self.students.append(student)
+      self.students.append(student_in_class)
       return True
     return False
 
@@ -30,3 +33,4 @@ course.add_students(s1)
 course.add_students(s2)
 
 print(course.students[0].name)
+print(course.students[0:1])
