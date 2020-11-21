@@ -18,4 +18,8 @@ class Course:
       self.stidents.append(student)
       return True
     return False
-    
+
+  def get_average(self):
+    pass
+
+
