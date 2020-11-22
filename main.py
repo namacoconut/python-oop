@@ -34,3 +34,17 @@ course.add_students(s2)
 
 print(course.students[0].name)
 print(course.students[0:1])
+
+course = Course("math",2)
+course.add_students(s1)
+course.add_students(s2)
+
+print(course.students[0].name)
+print(course.students[0:1])
+
+course = Course("math",2)
+course.add_students(s1)
+course.add_students(s2)
+
+print(course.students[0].name)
+print(course.students[0:1])
