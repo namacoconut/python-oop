@@ -29,6 +29,7 @@ s1 = Student("tim", 23, 99)
 s2 = Student("noor", 33, 0)
 
 course = Course("math",2)
+# in the course class our methd add_students allow us to store any tipe of object.
 course.add_students(s1)
 course.add_students(s2)
 
