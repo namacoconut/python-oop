@@ -68,7 +68,7 @@ class Dog(Pet):
 dog1 = Pet("tim", 12)
 dog1.show()
 
-dog2 = Cat("gil",34,"green")
+dog2 = Cat()
 dog2.show()
 
 dog3 = Dog("dro", 23)
