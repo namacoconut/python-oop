@@ -47,17 +47,19 @@ class Pet:
 
   def speak(self):
     print("I can't speak!") 
+
+
 class Cat(Pet):
   # we define the parameters here but we inheret them from the super calss.
-  # def __inint__(self, name, age, color):
-  #   super().__init__(name, age) 
-  #   self.color = color
+  def __inint__(self, name, age, color):
+    super().__init__(name, age) 
+    self.color = color
   
   def speak(self):
     print("mewo")
 
-  # def show(self):
-  #   print(f"I am {self.name} and I am {self.age} years old and my color is {self.color}")
+  def show(self):
+    print(f"I am {self.name} and I am {self.age} years old and my color is {self.color}")
 
 class Dog(Pet):
   def speak(self):
@@ -66,7 +68,7 @@ class Dog(Pet):
 dog1 = Pet("tim", 12)
 dog1.show()
 
-dog2 = Cat('bora', 23)
+dog2 = Cat("gil",34,"green")
 dog2.show()
 
 dog3 = Dog("dro", 23)
