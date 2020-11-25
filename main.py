@@ -1,5 +1,5 @@
 
-# creating a class means creating reusable object
+# creating a class means creating reusable object.
 class Student:
   def __init__(self, name , age, grade):
     self.name = name
@@ -36,7 +36,7 @@ course.add_students(s2)
 print(course.students[0].name)
 print(course.students[0:1])
 
-# ?inheretenc
+# ?inheretenc.
 class Pet:
   def __init__(self, name, age):
     self.name = name
@@ -47,4 +47,9 @@ class Pet:
 
   def Speak(self):
     print("I can't speak!") 
-
+class Cat:
+  # we define the parameters here but we inheret them from the super calss.
+  def __inint__(self, name, age, color):
+    
+    super().__init__(name, age) 
+    self.color = color
