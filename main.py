@@ -36,3 +36,15 @@ course.add_students(s2)
 print(course.students[0].name)
 print(course.students[0:1])
 
+# ?inheretenc
+class Pet:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def show(self):
+    print(f"hey I am {self.name} and I am {self.age} years old")
+
+  def Speak(self):
+    print("I can't speak!") 
+
